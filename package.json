@@ -1,6 +1,6 @@
 {
-  "name": "informer-business-time",
-  "version": "1.0.0",
+  "name": "@entrinsik/informer-business-time",
+  "version": "1.0.1",
   "description": "Decorates moment with business time functions",
   "main": "index.js",
   "directories": {
@@ -15,10 +15,12 @@
   },
   "author": "Andrew Morovati",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies" : {
     "joi": "^9.0.4",
     "lodash": "^3.10.1",
-    "moment-business-time": "^0.7.1",
+    "moment-business-time": "^0.7.1"
+  },
+  "devDependencies": {
     "chai": "^2.1.1",
     "gulp": "^3.8.11",
     "gulp-bump": "^0.2.2",
